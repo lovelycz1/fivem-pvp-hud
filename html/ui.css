@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 82%;
+  left: 17%;
+  width: 200px;
+  height: 210px;
+}
+
+section {
+  width: 180px;
+  height: 70px;
+  margin: 0px auto;
+  margin-top: 5px;
+}
+
+.bar1 {  /* health bar */
+  position: fixed;
+  left: 568px;
+  bottom: 42px;
+  width: 350px;
+  height: 15px;
+  padding: 2px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 5px;
+}
+
+.bar2 {  /* armor bar */   
+  position: fixed;
+  left: 990px;
+  bottom: 42px;
+  width: 350px;
+  height: 15px;
+  padding: 2px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 5px;
+}
+
+#bar-heart {
+  border: 1px solid rgb(0, 255, 55);
+}
+
+#bar-armor {
+  border: 1px solid rgb(4, 0, 255);
+}
+
+
+#armor {
+  background-color: rgb(4, 0, 255);
+  height: 100%;
+}
+
+#health {
+  background-color: rgb(0, 255, 55);
+  height: 100%;
+}
