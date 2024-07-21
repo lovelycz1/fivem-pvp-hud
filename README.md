@@ -1,0 +1,2 @@
+# fivem-pvp-hud
+STANDALONE
